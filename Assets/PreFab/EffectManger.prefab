@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8262667431449115487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8262667431449115481}
+  - component: {fileID: 8262667431449115486}
+  m_Layer: 0
+  m_Name: EffectManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8262667431449115481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8262667431449115487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8262667431449115486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8262667431449115487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d108882993dbec049b8672629c52d0e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DriftEffect: {fileID: 1734824828954157151, guid: 843a72941b899b744a00c1a45098836f, type: 3}
+  NitroEffect: {fileID: 6184364720451137241, guid: 87675fc51a4fbc747b415f6f75f4b271, type: 3}
+  DashIncator: {fileID: 4562598345729209562, guid: 6718fa80d14df014f85ed32a8957228d, type: 3}
+  weakEffect: {fileID: 8904879381633516139, guid: 5e85eb4d717a80b49a5b5672d4fc39b9, type: 3}
+  CarHeadHittenSpark: {fileID: 6171258396218215318, guid: 0bed6ff7e8fd81946ab1d9121000c957, type: 3}
+  HitGroundSpark: {fileID: 6171258396218215318, guid: 83bc6ead9d7916444bab8e20d1cf1ab0, type: 3}
